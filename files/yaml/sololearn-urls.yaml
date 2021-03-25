@@ -1,0 +1,40 @@
+urls:
+  compile:
+    url: https://api2.sololearn.com/v2/codeplayground/v2/compile
+    method: POST
+    syntax:
+      {
+        code: "Source Code",
+        codeID: "Id of code or null",
+        input: "inputs",
+        language: "Language of code",
+      }
+  countryCodes:
+    url: https://api2.sololearn.com/v2/lookup/countries
+    method: GET
+    syntax: null
+  countryFlags: https://assets.sololearn.com/countryFlags.png
+  codeInfo:
+    url: https://api2.sololearn.com/v2/codeplayground/usercodes/[Code ID]
+    method: GET
+    syntax: null
+  userInfo:
+    url: https://api2.sololearn.com/v2/userinfo/v3/profile/[User ID]
+    method: GET
+    syntax: null
+
+  achievementApiHost: "https://api2.sololearn.com/v2/achievement/api"
+  authApiHost: "https://www.sololearn.com"
+  blogApiHost: "https://www.sololearn.com"
+  cdnApiHost: "https://assets.sololearn.com"
+  codeCoachApiHost: "https://api2.sololearn.com/v2"
+  commentsApiHost: "https://www.sololearn.com"
+  learnApiHost: "https://api2.sololearn.com/v2"
+  lookupApiHost: "https://api2.sololearn.com/v2/lookup"
+  onboardingApiHost: "https://api2.sololearn.com/v2/dynamicflow"
+  paymentApiHost: "https://api2.sololearn.com/v2/payment"
+  playgroundApiHost: "https://api2.sololearn.com/v2/codeplayground"
+  playgroundUrl: "https://code.sololearn.com"
+  soloLearnUrl: "https://www.sololearn.com"
+  trackingApiHost: "https://api2.sololearn.com/v2/dynamicflow"
+  userInfoApiHost: "https://api2.sololearn.com/v2/userinfo"
