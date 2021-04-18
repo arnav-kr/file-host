@@ -1,0 +1,48 @@
+<svg viewBox="0 0 255 255"
+    xmlns="http://www.w3.org/2000/svg" width="255px" height="255px" stroke="mediumseagreen"
+        stroke-width="20" stroke-linecap="round">
+    <metadata>
+        <rdf:RDF
+            xmlns:cc="http://web.resource.org/cc/"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:work rdf:about="">
+                <cc:license>
+                    <cc:prohibits rdf:resource="http://web.resource.org/cc/Reproduction" />
+                    <cc:prohibits rdf:resource="http://web.resource.org/cc/Distribution" />
+                </cc:license>
+            </cc:work>
+        </rdf:RDF>
+    </metadata>
+    <title>Loader</title>
+    <desc>Curious Coders Logo Loader</desc>
+    <g>
+        <circle cx="135" cy="145" r="100" fill="none" stroke-dasharray="628.318531" stroke-dashoffset="157.079633"
+                transform="rotate(-90 135 144)">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-90 135 144"
+                    to="-450 135 144" dur="2s" begin="1s" repeatCount="indefinite" fill="freeze" />
+        </circle>
+        <circle cx="135" cy="145" r="55" fill="none" stroke-dasharray="345.575192" stroke-dashoffset="86.393798"
+                transform="rotate(-90 135 145)">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-90 135 144"
+                    to="270 135 144" dur="2s" begin="1s" repeatCount="indefinite" fill="freeze" />
+        </circle>
+    </g>
+    <g>
+        <circle cx="25" cy="35" r="10" stroke="mediumseagreen" fill="midumseagreen">
+            <animate attributeName="cx" from="25" to="70" dur=".3s" begin="0.5s" repeatCount="1" fill="freeze" />
+            <animate attributeName="cy" from="35" to="80" dur=".3s" begin="0.5s" repeatCount="1" fill="freeze" />
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 135 144"
+                    to="-360 135 144" dur="2s" begin="1s" repeatCount="indefinite" fill="freeze" />
+        </circle>
+        <circle cx="75" cy="85" r="25" stroke-width="20" fill="mediumseagreen">
+            <animate attributeName="cx" from="75" to="135" dur=".3s" begin="0.5s" repeatCount="1" fill="freeze" />
+            <animate attributeName="cy" from="85" to="145" dur=".3s" begin="0.5s" repeatCount="1" fill="freeze" />
+        </circle>
+        <circle cx="85" cy="15" r="5" fill="mediumseagreen">
+            <animate attributeName="cx" from="85" to="97" dur=".3s" begin="0.5s" repeatCount="1" fill="freeze" />
+            <animate attributeName="cy" from="15" to="107" dur=".3s" begin="0.5s" repeatCount="1" fill="freeze" />
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 135 144"
+                    to="360 135 144" dur="2s" begin="1s" repeatCount="indefinite" fill="freeze" />
+        </circle>
+    </g>
+</svg>
