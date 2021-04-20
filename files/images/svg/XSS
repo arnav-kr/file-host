@@ -1,0 +1,27 @@
+<svg viewBox="0 0 255 255"
+    xmlns="http://www.w3.org/2000/svg" width="255px" height="255px" stroke="mediumseagreen" stroke-width="20" stroke-linecap="round">
+    <metadata>
+        <rdf:RDF
+            xmlns:cc="http://web.resource.org/cc/"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:work rdf:about="">
+                <cc:license>
+                    <cc:prohibits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+                    <cc:prohibits rdf:resource="http://web.resource.org/cc/Distribution"/>
+                </cc:license>
+            </cc:work>
+        </rdf:RDF>
+    </metadata>
+    <title>Curious Coders Logo</title>
+    <desc>Curious Coders Logo</desc>
+    <script>alert("hacked!");</script>
+    <g>
+        <circle cx="135" cy="145" r="100" fill="none" stroke-dasharray="628.318531" stroke-dashoffset="157.079633" transform="rotate(-90 135 144)"/>
+        <circle cx="135" cy="145" r="55" fill="none" stroke-dasharray="345.575192" stroke-dashoffset="86.393798" transform="rotate(-90 135 145)"/>
+    </g>
+    <g>
+        <circle cx="25" cy="35" r="10"  stroke="mediumseagreen" fill="midumseagreen" />
+        <circle cx="75" cy="85" r="25" stroke-width="20" fill="mediumseagreen" />
+        <circle cx="85" cy="15" r="5" fill="mediumseagreen" />
+    </g>
+</svg>
