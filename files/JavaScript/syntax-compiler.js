@@ -1,16 +1,18 @@
 class SyntaxCompiler{
-    constructor(syntax){
+    constructor(type, syntax){
+        this.type = type || "custom";
         this.syntax = syntax || {};
+        if(typeof(this.syntax) !== "string"){this.type="custom"}
     }
     run(){
         var scripts = Array.from(document.scripts || document.getElementsByTagName("script") || document.querySelectorAll("script"));
-    var HSs = scripts.filter(s => s.type == "text/es" || s.type == "text/emojiscript");
+    var HSs = scripts.filter(s => s.type == this.type);
     HSs.forEach(script => {
         var JSCode;
         var HSString = script.innerHTML || script.innerText || script.textContent || "";
-        Object.keys(HSSyntax).forEach(keyword => {
+        Object.keys(this.syntax).forEach(keyword => {
             var HSRegexp = new RegExp(keyword, "gmi");
-            HSString = HSString.replace(HSRegexp, HSSyntax[keyword]);
+            HSString = HSString.replace(HSRegexp, this.syntax[keyword]);
         });
         var JSCode = document.createElement("script");
         JSCode.innerHTML = HSString;
