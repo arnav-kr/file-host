@@ -24,6 +24,7 @@ urls:
     syntax: null
   changePassword: https://api2.sololearn.com/v2/userinfo/v3/profile/changepassword
   followers: https://api2.sololearn.com/v2/userinfo/v3/profile/17431054/followers
+  following: https://api2.sololearn.com/v2/userinfo/v3/profile/17431054/following
   follow: https://api2.sololearn.com/v2/userinfo/v3/profile/follow/17431054
   unfollow: https://api2.sololearn.com/v2/userinfo/v3/profile/unfollow/17431054
   achievementApiHost: "https://api2.sololearn.com/v2/achievement/api"
